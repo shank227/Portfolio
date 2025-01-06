@@ -40,3 +40,10 @@ line-height: 40px;
 display: flex;
 justify-content: center;
 }
+
+footer {
+line-height: 40px;
+display: flex;
+justify-content: center;
+font-size: 1rem;
+}
