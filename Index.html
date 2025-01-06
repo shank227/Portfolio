@@ -1,26 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Simple HTML and CSS</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            background-color: lightblue;
-            text-align: center;
-        }
-        
-        h1 {
-            color: white;
-            margin-bottom: 20px;
-        }
-        
-        p {
-            color: darkblue;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to our page!</h1>
-    <p>This is a simple example of HTML and CSS without any images.</p>
+    <header>
+        <h1>My Grocery List</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Fruits</h2>
+            <ul>
+                <li>Apples</li>
+                <li>Bananas</li>
+                <li>Oranges</li>
+                <li>Grapes</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Vegetables</h2>
+            <ol>
+                <li>Tomatoes</li>
+                <li>Carrots</li>
+                <li>Spinach</li>
+                <li>Onions</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Dairy Products</h2>
+            <ul>
+                <li>
+                    <span>Milk</span>
+                    <ul>
+                        <li>Whole Milk</li>
+                        <li>Skim Milk</li>
+                    </ul>
+                </li>
+                <li>Cheese</li>
+                <li>Yogurt</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Snacks</h2>
+            <dl>
+                <dt>Chips</dt>
+                <dd>Potato Chips</dd>
+                <dd>Corn Chips</dd>
+
+                <dt>Cookies</dt>
+                <dd>Chocolate Chip Cookies</dd>
+                <dd>Oatmeal Cookies</dd>
+            </dl>
+        </section>
+    </main>
 </body>
 </html>
